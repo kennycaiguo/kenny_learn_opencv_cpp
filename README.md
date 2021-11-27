@@ -1,5 +1,5 @@
 # my_opencv_lessons
-source code and docs for opencv3.1 or opencv 4.5 in cpp or java or python
+# source code and docs for opencv3.1 or opencv 4.5 in cpp or java or python
 # <a href="https://github.com/kennycaiguo/learnopencv">Learn Opencv demos</a>
 # <a href="https://github.com/kennycaiguo/opencv_tutorial">opencv_tutorial</a>
 # <a href="https://github.com/kennycaiguo/opencv-java-tutorials">opencv-java-tutorials</a>
