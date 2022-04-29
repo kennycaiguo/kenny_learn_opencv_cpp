@@ -320,6 +320,99 @@ https://github.com/DingProg/Makeup
 去除图片中的水印
 https://github.com/SixQuant/nowatermark 
  
+# 技能 | Python处理图像10大经典库（附下载地址）
+ 
+1、scikit Image
+scikit-image是一个与numpy数组配合使用的开源Python包，在学术研究、教育和行业领域都可应用。
+即使是那些刚接触Python生态系统的人，也会觉得这是一个相当简单直接的库。
+通过这个包能完成很多任务，比如图像过滤：
+ 
+使用match_template 函数进行模板匹配：
+ 
+官方地址：
+https://scikit-image.org/
+用户指南：
+https://scikit-image.org/docs/stable/user_guide.html 
+2、Numpy
+Numpy是Python的核心库之一，也能支持数组，图像本质上是包含数据点像素的标准Numpy数组。
+因此，通过基本的NumPy操作，可以修改图像的像素值。
+也可以使用skimage加载图像并用matplotlib显示。
+使用方法也和简单，比如需要mask一张图像时：
+ 
+官方地址：
+http://www.numpy.org/ 
+3. Scipy
+ 
+scipy是Python中另一个核心模块，可用于基本的图像操作和处理任务。
+特别需要注意的是，子模块scipy.ndimage提供在n维NumPy数组上运行的功能。这个包目前包括线性和非线性滤波器、二元形态、B-spline插值和物体测量等功能。
+可以用高斯过滤用Scipy模糊高斯滤波器：
+ 
+官方资料：
+https://docs.scipy.org/doc/scipy/reference/tutorial/ndimage.html#correlation-and-convolution
+4、PIL/ Pillow
+PIL（Python Imaging Library）是一个免费的Python编程语言库，它增加了对打开，操作和保存不同图像文件格式的支持。然而，它的发展停滞不前，最后一次更新还是在2009年。
+其分支Pillow更易于安装，在所有主要操作系统上运行并支持Python 3。这个库包含基本的图像处理功能，包括点操作、使用一组内置卷积核滤波及颜色空间转换。
+当用ImageFilter增强Pillow中的图像时，操作是这样的：
+ 
+官方介绍：
+https://pillow.readthedocs.io/en/3.1.x/index.html 
+5、OpenCV-Python
+ 
+OpenCV是计算机视觉应用中使用最广泛的库之一，OpenCV-Python是OpenCV的python API。
+总体来说，因为后台由用C / C ++编写，因此OpenCV-Python不仅速度快，也易于编程和部署。
+这使其成为执行计算密集型视觉程序的绝佳选择。
+来看一下用例，下图展示的是OpenCV-Python在Image Blending中使用Pyramids创建一个名为’Orapple’的新水果的功能。
+ 
+上手指南：
+https://github.com/abidrahmank/OpenCV2-Python-Tutorials
+6、SimpleCV
+ 
+SimpleCV也是广泛被使用的构建计算机视觉应用程序的开源框架。
+手握SimpleCV，你可以访问几个高性能的视觉库，而无需先了解图像色深（bit depth）、文件格式、色彩空间等。
+SimpleCV拥护者的支持理由有两个，一是初学者也可以借此编写简单的视觉任务，二是无论是相机、视频文件、图像和视频流可互相操作。
+ 
+用户指南：
+https://simplecv.readthedocs.io/en/latest/ 
+7、Mahotas
+Mahotas包含传统的图像处理功能，如滤波和图像形态学处理，以及用于特征计算，比如兴趣点检测和局部描述子等。
+这个库适用于快速开发，算法是用C++实现的，并且针对速度进行了调整。
+ 
+官方地址：
+https://mahotas.readthedocs.io/en/latest/
+用户指南：
+https://mahotas.readthedocs.io/en/latest/index.html 
+8、 SimpleITK
+ 
+ITK是一个开源的跨平台系统，提供一整套用于图像分析的软件工具。
+其中，SimpleITK是一个建立在ITK之上的简化层，促进其在简化原型、教育和解释语言中的应用。
+SimpleITK是一个图像分析工具包，内含大量组件，支持一般滤波操作、图像分割和图形配准。
+SimpleITK本身是用C++编写的，但也适用于包括Python在内的大量编程语言。
+下面就是用SimpleITK和Python创建的可视化的CT/MR图：
+ 
+官方地址：
+https://itk.org/
+学习资料：
+http://insightsoftwareconsortium.github.io/SimpleITK-Notebooks/ 
+9、GraphicsMagick
+GraphicsMagick号称图像处理领域的瑞士军刀。代码短小却提供了一个鲁棒、高效的工具和库集合，可用来处理图像的读取、写入和操作。
+支持超过88种图像格式，包括重要的DPX、GIF、JPEG、JPEG-2000、PNG、PDF、PNM和TIFF。
+将它用于图像边缘提取任务，效果如下：
+ 
+官方资料：
+https://pypi.org/project/pgmagick/
+相关资源：
+https://github.com/hhatto/pgmagick 
+10、Pycairo
+ 
+pyCairo是一个Python的2D图形渲染库，可用于绘制矢量图形的2D图形，在调整大小或变换时不会丢失清晰度。
+下面这个用例是用Pycairo绘制线条、基本形状和径向梯度。
+ 
+官方介绍：
+https://cairographics.org/
+相关资源：
+https://github.com/pygobject/pycairo
+https://towardsdatascience.com/image-manipulation-tools-for-python-6eb0908ed61f
+
 
 
 
