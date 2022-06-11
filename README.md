@@ -11,6 +11,7 @@
 # <a href="https://github.com/kennycaiguo/OpenCV-Samples">OpenCV-Samples</a>
 
 # <a href="https://github.com/fengzhenHIT/OpenCV_Projects">OpenCV实现计算机视觉项目</a>
+# <a hrf="https://zhuanlan.zhihu.com/p/357042606">OpenCV显示中文</a>
 # 10个opencv 小项目
 1. Drowsiness Detector 睡意检测
 
