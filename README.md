@@ -9,6 +9,7 @@
 # <a href="https://github.com/kennycaiguo/OpenCVCode">小白学CV系列配套代码</a>
 # <a href="https://github.com/kennycaiguo/OpenCVTutorial">OpenCV-Python官网教程中文翻译</a>
 # <a href="https://github.com/kennycaiguo/OpenCV-Samples">OpenCV-Samples</a>
+# <a href="https://github.com/purse1996/opencv_example">some examples of OpenCV</a>
 
 # <a href="https://github.com/fengzhenHIT/OpenCV_Projects">OpenCV实现计算机视觉项目</a>
 # <a hrf="https://zhuanlan.zhihu.com/p/357042606">OpenCV显示中文</a>
