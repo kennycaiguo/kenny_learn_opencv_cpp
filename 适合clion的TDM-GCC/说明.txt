@@ -1,0 +1,1 @@
+可以用这个gcc代替clion自带的能够minGW编译器因为TDM-GCC支持多线程
