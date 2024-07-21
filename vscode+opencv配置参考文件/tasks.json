@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "g++.exe build active file",
+            "command": "d:\\programs\\TDM-GCC-64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I",
+                "D:/programs/opencvlib/include",
+                "-I",
+                "D:/programs/opencvlib/include/opencv",
+                "-I",
+                "D:/programs/opencvlib/include/opencv2",
+                "-L",
+                "D:/programs/opencvlib/x64/mingw/lib",
+                "-l",
+                "libopencv_img_hash341",
+                "-l",
+                "libopencv_world341"
+            ],
+            "options": {
+                "cwd": "d:\\programs\\TDM-GCC-64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
